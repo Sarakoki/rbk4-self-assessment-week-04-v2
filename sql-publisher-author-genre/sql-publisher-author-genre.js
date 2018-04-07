@@ -9,11 +9,16 @@ var Schemas = {
   OPTION_6: 'option 6'
 };
 
-var sqlPublisherAuthorSchema =  Schemas.FIX_ME; // TODO: Update this constant
+var sqlPublisherAuthorSchema =  Schemas.OPTION_6; // TODO: Update this constant
 // TODO: Write a comment here explaining your choice
+because it has tow foregin key and when it is many to many it should be a foregin key for every table we need to use it
 
-var sqlPublisherGenreSchema =  Schemas.FIX_ME; // TODO: Update this constant
-// TODO: Write a comment here explaining your choice
 
-var sqlAuthorGenreSchema =  Schemas.FIX_ME; // TODO: Update this constant
+var sqlPublisherGenreSchema =  Schemas.OPTION_4; // TODO: Update this constant
 // TODO: Write a comment here explaining your choice
+it is a one to many because the puplish had one gener and the gener has many publish
+
+
+var sqlAuthorGenreSchema =  Schemas.OPTION_6; // TODO: Update this constant
+// TODO: Write a comment here explaining your choice
+because it is a many to many so it should be an foregin key for every table we need to use
